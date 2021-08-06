@@ -33,4 +33,4 @@ The file "geoCalibVshd0diop.mat" contains geometry correction data for VSHD, whi
 
 ## Real 3D Example 2
 
-"VSHD_example3D_2.m" shows different 3D objects floating and rotating in space. The objects lie at different positions and depths. The camera position moves side to side to enhance the 3D effect. The 3D grapics are rendered as in "Real 3D Example 1". 
+"VSHD_example3D_2.m" shows different 3D objects floating and rotating in space. The objects lie at different positions and depths. The camera position moves side to side to enhance the 3D effect. The 3D graphics are rendered as in "Real 3D Example 1". 
