@@ -133,14 +133,14 @@ allRectsL = [];
 allRectsR = [];
 
 % Adding the coordinates of the two rectangles to shared matrices, 
-% one for each eye offset MAKE THESE LINES SHORTER SOMEHOW
-allRectsL = [
-CenterRectOnPointd(baseRect, squareXpos(1)+shifterPix(1), squareYpos)' CenterRectOnPointd(baseRect, squareXpos(2)+shifterPix(2), squareYpos)'
-];
+% one for each eye offset. 
+rect1L = CenterRectOnPointd(baseRect, squareXpos(1)+shifterPix(1), squareYpos)';
+rect2L = CenterRectOnPointd(baseRect, squareXpos(2)+shifterPix(2), squareYpos)';
+allRectsL = [rect1L rect2L];
 
-allRectsR = [
-CenterRectOnPointd(baseRect, squareXpos(1)-shifterPix(1), squareYpos)' CenterRectOnPointd(baseRect, squareXpos(2)-shifterPix(2), squareYpos)'
-];
+rect1R = CenterRectOnPointd(baseRect, squareXpos(1)-shifterPix(1), squareYpos)';
+rect2R = CenterRectOnPointd(baseRect, squareXpos(2)-shifterPix(2), squareYpos)';
+allRectsR = [rect1R rect2R];
 
 % ------------------- Setting up drawing of a cross ---------------------------
 % Here we set the size of the arms of our fixation cross
