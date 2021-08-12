@@ -75,7 +75,6 @@ preInfoDuration = 1;
 % Set the distance to the cubes
 dist = 13; 
 
-
 %--------------------------------------------------------------------------
 %                      Set up the screen
 %--------------------------------------------------------------------------
@@ -114,7 +113,6 @@ Screen('TextFont', window, 'Courier');
 %--------------------------------------------------------------------------
 %                      Set up the displayed animation
 %--------------------------------------------------------------------------
-
 
 % Start the OpenGL context (you have to do this before you issue OpenGL
 % commands such as we are using here)
@@ -178,8 +176,6 @@ rotaZ = rand(1, length(cubeX)) .* 360;
 % frame. Note we use Degrees here (not Radians)
 degPerSec = 30;
 degPerFrame = degPerSec * ifi;
-
-
 
 %--------------------------------------------------------------------------
 %                        Display the stimuli
@@ -247,7 +243,6 @@ while ~KbCheck
             glTranslatef(cubeX(i), cubeY(i), -dist + 3*sin(rotaX/20));
           end
 
-          
           % Rotate the cube randomly in xyz
           glRotatef(rotaX(i), 1, 0, 0);
           glRotatef(rotaY(i), 0, 1, 0);
@@ -258,7 +253,6 @@ while ~KbCheck
 
           % Pop the matrix stack for the next cube
           glPopMatrix;
-
       end
 
       % End the OpenGL context now that we have finished doing OpenGL stuff.
@@ -271,8 +265,6 @@ while ~KbCheck
       end  
     end
     
-      
-    
     % Show rendered image at next vertical retrace
     vbl = Screen('Flip', window, vbl + (waitframes - 0.5) * ifi);
 
@@ -280,13 +272,7 @@ while ~KbCheck
     rotaX = rotaX + degPerFrame;
     rotaY = rotaY + degPerFrame;
     rotaZ = rotaZ + degPerFrame;
-
 end
-
-
-% Take screenshot
-##imageArray = Screen('GetImage', window);
-##imwrite(imageArray, 'correction3.png');
 
 % Shut the screen down
 sca;
