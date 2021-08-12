@@ -57,7 +57,7 @@ calibFilename = 'geoCalibVshd0diop.mat';
 IPD = 6.3; % 6.3 cm
 
 # Set the field of view (FOV) in y direction for the VSHD Goggles 
-FOV_y = 34;
+FOV_y = 30;
 
 % Choose to display text along with the animations. 1 or 0.
 displayStimuliText = 1;
