@@ -12,7 +12,7 @@
 %% corresponding to VSHD. This is set through the variable "screenNumber".
 %% For details on how to set up the display for VSHD, see the article 
 %% "Display Setup for Visual Stimuli using VSHD". This script is compatible 
-%% with setup 1M or 2M. 
+%% with setup 1M or 2M. VSHD should be set as the main display.
 %% 
 %% The script  will show rotating squares and textures. It is a modified
 %% version of "Internal External Texture Rotation Demo" from 

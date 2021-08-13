@@ -11,7 +11,7 @@
 %% To run this script you must set the screenid to the ID corresponding to
 %% VSHD. The hardware and software must also be correctly set up. This demo is
 %% compatible with setup 2S Combined, see the article "Display Setup for Visual
-%% Stimuli using VSHD". 
+%% Stimuli using VSHD". VSHD should be set as the main display.
 %%
 %% The script  will show four different shapes which appear to lie at
 %% different depths. The depth efffect is achieved by shifting the shapes for

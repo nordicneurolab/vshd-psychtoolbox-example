@@ -12,6 +12,7 @@
 %% to VSHD. The hardware and software must be set up correctly as well.
 %% For details on how to do this, see the article "Display Setup for Visual 
 %% Stimuli using VSHD". This script is compatible with setup 2S Combined. 
+%% VSHD should be set as the main display.
 %%
 %% The script will show different 3D objects floating in space. The 3D stimuli
 %% is achieved by rendering different images for the eyes. This is done by 
