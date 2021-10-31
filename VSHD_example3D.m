@@ -3,9 +3,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 %% File:          VSHD_example3D.m
-%% Init Author:   îCarl Fredrik Haakonsenî <cfhaakonsen@gmail.com>
+%% Init Author:   ‚ÄùCarl Fredrik Haakonsen‚Äù <cfhaakonsen@gmail.com>
 %% Init Date:     2021-08-06
-%% Project:       VSHD ñ PsychToolbox Usage Example
+%% Project:       VSHD ‚Äì PsychToolbox Usage Example
 %% Description:   3D example script for psychtoolbox using VSHD
 %%
 %% To run this script you must first set screenid to the ID corresponding
@@ -49,7 +49,7 @@ stereoMode = 4;
 screenid = 1;
 
 % Name of the calibration file
-calibFilename = 'Calibdata3.mat';
+calibFilename = 'geoCalibVshd0diop.mat';
 
 % Set the inter pupil distance of the subject. This variable will be used as the camera offset
 % in the 3D rendering.
